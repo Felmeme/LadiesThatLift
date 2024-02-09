@@ -1,0 +1,218 @@
+html {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main {
+    position: relative;
+    top: 6.5rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #4a4a4a;
+    color: white;
+}
+
+.image-container {
+    overflow: hidden;
+}
+  
+.image-container img {
+    display: block;
+    max-width: 100%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Header */
+
+header {
+    background-color: #696969;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    height: 6.5rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1.875rem;
+}
+
+header .logo {
+    flex: 1;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.5rem;
+}
+
+.desktop ul {
+    display: flex;
+}
+
+.desktop li {
+    padding: 10px 10px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.navbar a {
+    color: black;
+}
+
+.mobile li {
+    display: none;
+}
+
+@media only screen and (max-width: 55.9375rem) {
+    .mobile li {
+        display: block;
+    }
+}
+
+/* Sign up block */
+
+.banner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+    height: 46rem;
+    background-image: url(../media/meghan-holmes-buWcS7G1_28-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+#sign-up-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #7951aa;
+    width: 30rem;
+    height: 20rem;
+    padding: 0 5rem 2.5rem 5rem;
+    top: 13rem;
+    left: 10%;
+    margin-top: 2rem;
+}
+
+#sign-up-cta .content {
+    width: 25.625rem;
+    margin-top: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    color: white;
+}
+
+#sign-up-cta h1 {
+    font-size: 3rem;
+}
+
+#sign-up-cta h3 {
+    font-size: 2rem;
+}
+
+#sign-up-cta .cursive {
+    font-family: "Damion", cursive;
+}
+
+#sign-up-cta .striking {
+    font-family: "Rubik", sans-serif;
+    padding-bottom: .75rem;
+}
+
+.banner span {
+    font-size: 1.5rem;
+}
+
+.classes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45rem;
+    background-color: #4a4a4a;
+    opacity: 0.7;
+}
+
+
+
+
+#about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+
+.about {
+    flex: 1;
+    padding: 2rem;
+    margin: 0 1.25rem;
+}
+
+.about span {
+    padding: 0.5rem;
+}
+
+#about-section .image-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.about .striking {
+    font-family: "Rubik", sans-serif;
+    padding-bottom: .75rem;
+}
+
+.socials {
+    background-color: blue;
+    color: black;
+    margin-top: 30;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.socials h2 {
+    text-align: center;
+
+}
+
+.socials li {
+    display: inline-block;
+    width: 500px;
+    height: 200px; 
+    margin: 20 30;
+}
+
+.footer {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #7951aa;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
